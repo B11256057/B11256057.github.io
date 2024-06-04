@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog - Destinations</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        header nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        header nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .grid-item {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+        .grid-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        .grid-item h2 {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .grid-item p {
+            font-size: 1em;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="destinations.html">商品</a></li>
+                <li><a href="about.html">關於我們</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Top Destinations</h1>
+        <p>Explore our curated list of the best travel destinations around the globe.</p>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="destination1.jpg" alt="Destination 1">
+                <h2>Destination 1</h2>
+                <p>Description of destination 1.</p>
+            </div>
+            <div class="grid-item">
+                <img src="destination2.jpg" alt="Destination 2">
+                <h2>Destination 2</h2>
+                <p>Description of destination 2.</p>
+            </div>
+            <div class="grid-item">
+                <img src="destination3.jpg" alt="Destination 3">
+                <h2>Destination 3</h2>
+                <p>Description of destination 3.</p>
+            </div>
+            <div class="grid-item">
+                <img src="destination4.jpg" alt="Destination 4">
+                <h2>Destination 4</h2>
+                <p>Description of destination 4.</p>
+            </div>
+            <div class="grid-item">
+                <img src="destination5.jpg" alt="Destination 5">
+                <h2>Destination 5</h2>
+                <p>Description of destination 5.</p>
+            </div>
+            <div class="grid-item">
+                <img src="destination6.jpg" alt="Destination 6">
+                <h2>Destination 6</h2>
+                <p>Description of destination 6.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 遊戲部落格</p>
+    </footer>
+</body>
+</html>

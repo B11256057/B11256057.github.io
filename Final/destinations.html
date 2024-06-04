@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog - Destinations</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="destinations.css">
+    <script src="destinations.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="destinations.html">商品</a></li>
+                <li><a href="about.html">關於我們</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>電腦周邊</h1>
+        <div class="grid-container" id="grid-container">
+            <div class="grid-item" onclick="showDetailView('1')">
+                <img src="photo/1.jpg" alt="Destination 1">
+                <h2>Razer DeathAdder V3 Pro</h2>
+                <p><span class="price">價格:3,990</span></p>
+            </div>
+            <div class="grid-item" onclick="showDetailView('2')">
+                <img src="photo/2.jpg" alt="Destination 2">
+                <h2>Razer Viper V2 PRO</h2>
+                <p><span class="price">價格:4,590</span></p>
+            </div>
+            <div class="grid-item" onclick="showDetailView('3')">
+                <img src="photo/3.jpg" alt="Destination 3">
+                <h2>Razer Viper V3 Pro </h2>
+                <p><span class="price">價格:4,990</span></p>
+            </div>
+            <div class="grid-item" onclick="showDetailView('4')">
+                <img src="photo/4.jpg" alt="Destination 4">
+                <h2>Razer OROCHI V2 </h2>
+                <p><span class="price">價格:1,088</span></p>
+            </div>
+            <div class="grid-item" onclick="showDetailView('5')">
+                <img src="photo/5.jpg" alt="Destination 5">
+                <h2>Razer Barracuda</h2>
+                <p><span class="price">價格:2,990</span></p>
+            </div>
+            <div class="grid-item" onclick="showDetailView('6')">
+                <img src="photo/6.jpg" alt="Destination 6">
+                <h2>Razer Cobra Pro wireless</h2>
+                <p><span class="price">價格:4,299</span></p>
+            </div>
+            <div class="grid-item" onclick="showDetailView('7')">
+                <img src="photo/7.jpg" alt="Destination 7">
+                <h2>Razer Basilisk V3 Pro</h2>
+                <p><span class="price">價格:4,490</span></p>
+            </div>
+            <div class="grid-item" onclick="showDetailView('8')">
+                <img src="photo/8.jpg" alt="Destination 8">
+                <h2>Razer BlackWidow V4 75%</h2>
+                <p><span class="price">價格:7,290</span></p>
+            </div>
+        </div>
+
+        <div class="detail-view" id="detail-view">
+            <a href="#" class="back-btn" onclick="showGridView()">返回</a>
+            <div id="detail-content"></div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 遊戲部落格</p>
+    </footer>
+</body>
+</html>
