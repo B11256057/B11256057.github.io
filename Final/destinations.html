@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Blog - Destinations</title>
+    <title>商品</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="destinations.css">
-    <script src="destinations.js"></script>
+    <script src="destinations.js" defer></script>
 </head>
 <body>
     <header>
@@ -19,57 +19,104 @@
         </nav>
     </header>
     <main>
-        <h1>電腦周邊</h1>
-        <div class="grid-container" id="grid-container">
+        <h1 class="nl">RAZER</h1>
+        <div class="grid-container" id="razer-grid-container">
             <div class="grid-item" onclick="showDetailView('1')">
-                <img src="photo/1.jpg" alt="Destination 1">
+                <img src="photo/1.jpg" alt="Razer DeathAdder V3 Pro">
                 <h2>Razer DeathAdder V3 Pro</h2>
                 <p><span class="price">價格:3,990</span></p>
             </div>
             <div class="grid-item" onclick="showDetailView('2')">
-                <img src="photo/2.jpg" alt="Destination 2">
+                <img src="photo/2.jpg" alt="Razer Viper V2 PRO">
                 <h2>Razer Viper V2 PRO</h2>
                 <p><span class="price">價格:4,590</span></p>
             </div>
             <div class="grid-item" onclick="showDetailView('3')">
-                <img src="photo/3.jpg" alt="Destination 3">
-                <h2>Razer Viper V3 Pro </h2>
+                <img src="photo/3.jpg" alt="Razer Viper V3 Pro">
+                <h2>Razer Viper V3 Pro</h2>
                 <p><span class="price">價格:4,990</span></p>
             </div>
             <div class="grid-item" onclick="showDetailView('4')">
-                <img src="photo/4.jpg" alt="Destination 4">
-                <h2>Razer OROCHI V2 </h2>
+                <img src="photo/4.jpg" alt="Razer OROCHI V2">
+                <h2>Razer OROCHI V2</h2>
                 <p><span class="price">價格:1,088</span></p>
             </div>
             <div class="grid-item" onclick="showDetailView('5')">
-                <img src="photo/5.jpg" alt="Destination 5">
+                <img src="photo/5.jpg" alt="Razer Barracuda">
                 <h2>Razer Barracuda</h2>
                 <p><span class="price">價格:2,990</span></p>
             </div>
             <div class="grid-item" onclick="showDetailView('6')">
-                <img src="photo/6.jpg" alt="Destination 6">
+                <img src="photo/6.jpg" alt="Razer Cobra Pro wireless">
                 <h2>Razer Cobra Pro wireless</h2>
                 <p><span class="price">價格:4,299</span></p>
             </div>
             <div class="grid-item" onclick="showDetailView('7')">
-                <img src="photo/7.jpg" alt="Destination 7">
+                <img src="photo/7.jpg" alt="Razer Basilisk V3 Pro">
                 <h2>Razer Basilisk V3 Pro</h2>
                 <p><span class="price">價格:4,490</span></p>
             </div>
             <div class="grid-item" onclick="showDetailView('8')">
-                <img src="photo/8.jpg" alt="Destination 8">
+                <img src="photo/8.jpg" alt="Razer BlackWidow V4 75%">
                 <h2>Razer BlackWidow V4 75%</h2>
                 <p><span class="price">價格:7,290</span></p>
             </div>
         </div>
 
-        <div class="detail-view" id="detail-view">
-            <a href="#" class="back-btn" onclick="showGridView()">返回</a>
-            <div id="detail-content"></div>
+        <div class="detail-view" id="razer-detail-view">
+            <a href="#" class="back-btn" onclick="showGridView('razer')">返回</a>
+            <div id="razer-detail-content"></div>
         </div>
     </main>
-    <footer>
-        <p>&copy; 2024 遊戲部落格</p>
-    </footer>
+    <main>
+        <h1 class="nl">LOGITEC</h1>
+        <div class="grid-container" id="logitech-grid-container">
+            <div class="grid-item" onclick="showDetailView('11')">
+                <img src="photo/11.webp" alt="G PRO X SUPERLIGHT 2">
+                <h2>G PRO X SUPERLIGHT 2</h2>
+                <p><span class="price">價格:4,990</span></p>
+            </div>
+            <div class="grid-item" onclick="showDetailView('12')">
+                <img src="photo/12.webp" alt="G PRO X">
+                <h2>G PRO X</h2>
+                <p><span class="price">價格:2,990</span></p>
+            </div>
+            <div class="grid-item" onclick="showDetailView('13')">
+                <img src="photo/13.webp" alt="G PRO">
+                <h2>G PRO</h2>
+                <p><span class="price">價格:1,990</span></p>
+            </div>
+            <div class="grid-item" onclick="showDetailView('14')">
+                <img src="photo/14.webp" alt="G502 X Plus">
+                <h2>G502 X Plus</h2>
+                <p><span class="price">價格:4,490</span></p>
+            </div>
+            <div class="grid-item" onclick="showDetailView('15')">
+                <img src="photo/15.webp" alt="G502 X LIGHTSPEED">
+                <h2>G502 X LIGHTSPEED</h2>
+                <p><span class="price">價格:2,990</span></p>
+            </div>
+            <div class="grid-item" onclick="showDetailView('16')">
+                <img src="photo/16.webp" alt="G304">
+                <h2>G304</h2>
+                <p><span class="price">價格:990</span></p>
+            </div>
+            <div class="grid-item" onclick="showDetailView('17')">
+                <img src="photo/17.webp" alt="G PRO X 2 LIGHTSPEED">
+                <h2>G PRO X 2 LIGHTSPEED</h2>
+                <p><span class="price">價格:6,990</span></p>
+            </div>
+            <div class="grid-item" onclick="showDetailView('18')">
+                <img src="photo/18.webp" alt="G PRO X 60">
+                <h2>G PRO X 60</h2>
+                <p><span class="price">價格:6,490</span></p>
+            </div>
+        </div>
+
+        <div class="detail-view" id="logitech-detail-view">
+            <a href="#" class="back-btn" onclick="showGridView('logitech')">返回</a>
+            <div id="logitech-detail-content"></div>
+        </div>
+    </main>
 </body>
 </html>

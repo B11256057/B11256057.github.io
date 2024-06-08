@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.content img {
+    max-width: 100%;
+    height: auto;
+}
+.content h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.content p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.nl{
+    text-align: center;
+}
