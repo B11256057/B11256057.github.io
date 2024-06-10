@@ -25,6 +25,7 @@ header nav ul li a {
 
 main {
     display: flex;
+    flex-direction: column; /* Changed to column to stack items vertically */
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -38,6 +39,7 @@ main {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.9);
     padding: 20px;
+    margin: 10px 0; /* Added margin to separate the divs vertically */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
