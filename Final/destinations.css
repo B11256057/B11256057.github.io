@@ -1,9 +1,14 @@
 body {
     font-family: Arial, sans-serif;
 }
+header {
+    background-color: #000000; 
+}
 header nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0; 
+    text-align: center; 
 }
 header nav ul li {
     display: inline;
@@ -36,7 +41,7 @@ header nav ul li a {
 }
 .grid-item p {
     font-size: 1em;
-    color: #333;
+    color: #000000;
 }
 .detail-view {
     display: none;
@@ -58,7 +63,6 @@ header nav ul li a {
 .price {
     color: red;
 }
-.nl{
+.nl {
     text-align: center;
 }
-
